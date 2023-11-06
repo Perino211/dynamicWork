@@ -1,0 +1,96 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    /*background: cornsilk;*/
+}
+
+.header{
+   /* border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(126, 123, 123, 0);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.content{
+    margin-top: 20px;
+   /* border: 2px solid blue;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@keyframes slideIn{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.h2animation{
+    animation: slideIn 2s ease-in-out;
+}
+
+.footer{
+    border: 2px solid green;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    
+}
+
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.medias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sitefooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sitefooter,a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:visited{
+    color: purple;
+}
+.aboutuscard,.privacypolicycard,.contactcard{
+    margin: 5px;
+}
+.breakfastcard,
+.lunchcard,.suppercard, .dinnercard,.dessertcard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    /*box-shadow: 5px 5px 15px black;*/
+    transition: transform 0.5s;
+}
+
+.breakfastcard:hover,
+.lunchcard:hover,.suppercard:hover, .dinnercard:hover,.dessertcard:hover{
+    
+    transform: translateY(20px);
+}
+.rounded{
+    border-radius: 15px;
+}

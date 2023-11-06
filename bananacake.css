@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    border: 2px soild red;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutlogin{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    margin: 10px;
+}
+.aboutus{
+    justify-self: center;
+}
+
+.maincontent{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.aboutbanana{
+    display: flex;
+    flex-direction: column;
+}
+
+.prepinfo{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    background-color: antiquewhite;
+
+    
+}
+.prepitem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.directions{
+    display: flex;
+}
+
+.saveprint{
+    display: flex;
+}
+
+.nutritionfacts{
+    display: flex;
+}
+
+.thirdcontent{
+    /*border: 2px solid brown;*/
+    display: flex;
+    justify-content: center;
+
+}
+.commentcard{
+    padding: 15px;
+    margin: 30px;
+    width: 400px;
+    height: 500px;
+
+
+}
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.footer{
+    border: 2px solid brown;
+}

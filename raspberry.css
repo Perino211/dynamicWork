@@ -1,0 +1,170 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+   /* border: 2px solid red;*/
+    display: flex;
+    
+}
+
+.firstcontent{
+  /*  border: 2px solid blue;*/
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+   
+}
+
+.dessertcard{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+}
+.item{
+    padding-bottom: 16px;
+}
+button{
+    background-color: #007bff;
+    border-radius: 5px;
+    
+}
+.contentcard{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+   /* box-shadow: 0px 0px 10px black; */
+}
+.picturecard{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+   /* box-shadow: 0px 0px 10px black; */
+}
+.raspberrypic{
+    border-radius: 15px;
+}
+.printsavecard{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    justify-content: space-around;
+    
+
+}
+.secondcontent{
+   /* border: 2px solid green;*/
+    display: flex;
+    margin: 15px;
+}
+
+.ingredientscard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+.stepscard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.thirdcontent{
+    /*border: 2px solid brown;*/
+    display: flex;
+    justify-content: center;
+
+}
+.commentcard{
+    padding: 15px;
+    margin: 30px;
+    width: 400px;
+    height: 500px;
+
+
+}
+
+
+.footer{
+    /*border: 2px soild yellow;*/
+    display: flex;
+}
+
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/*@keyframes moveAndFade {
+    0% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+    95% {
+      transform: translateX(10%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+}
+  
+.movinglogo,.logoanimation {
+    animation: moveAndFade 5s linear infinite;
+}
+  */
